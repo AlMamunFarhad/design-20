@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+}
+.nav{
+background-color: #000;
+}
+/* hero section */
+
+.hero-section{
+    color: #fff;
+    padding: 2rem 0;
+}
+.hero-section h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #000;
+}
+.hero-section ul li{
+    font-size: 1.1rem;
+}
+
+/*  */
+.section-2{
+    padding: 3rem 0;
+}
+.section-2 h1{
+    padding-bottom: 1rem;
+}
+.section-2 p{
+    padding-bottom: 1rem;
+}
+.hero-btn a{
+    background: #ff4d04;
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: .375rem;
+}
+
+/* card */
+.card-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #ffd400;
+    padding: .8rem 4rem;
+    border-radius: .375rem;
+}
+
+/* footer */
+footer {
+    background: #f5f5f5;
+}
+footer .col-md-12 p{
+ color: #000 !important;
+}
+footer a{
+    text-decoration: none;
+    color: #ff4d04;
+    font-weight: 500;
+    margin: 1rem .6rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 2rem !important;
+    }
+    .hero-btn a{
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+    }
+}
